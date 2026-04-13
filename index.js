@@ -8,19 +8,19 @@ import authRoutes from './routes/auth.js';
 dotenv.config();
 connectDB();
 
-const App = express();
+const app = express();
 
-App.use(cors({
+app.use(cors({
     origin: "http://localhost:5173",
     credentials: true
 }));
-App.use(express.json());
+app.use(express.json());
 
-App.use("/api/auth", authRoutes);
-
-
+app.use("/api/auth", authRoutes);
 
 
-App.listen(5000, ()=>{
+
+
+app.listen(5000, ()=>{
     console.log("Server running on Port 5000")
 });
