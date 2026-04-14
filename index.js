@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://elaborate-pony-d7539b.netlify.app/",
     credentials: true
 }));
 app.use(express.json());
