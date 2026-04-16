@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: "https://elaborate-pony-d7539b.netlify.app",
+    origin: "https://myekart.netlify.app",
     credentials: true
 }));
 app.use(express.json());
