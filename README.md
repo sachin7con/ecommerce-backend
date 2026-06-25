@@ -3,7 +3,7 @@
 A secure, scalable production API engine engineered to handle high-integrity checkout workflows, inventory management, token-based authentication loops, and payment gate integrations. This backend serves as the centralized business-logic layer for the E-Commerce ecosystem.
 
 * **Looking for the UI Client?** [👉 Access the Frontend Repository Here](https://github.com/sachin7con/ecommerce-frontend)
-* **Backend API Base Engine:** [👉 Live Production API Base](https://your-deployed-render-or-railway-link.com)
+* **Backend API Base Engine:** [👉 Live Production API Base](https://ecommerce-backend-oc9b.onrender.com/api)
 
 ---
 
